@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, #E8365C, #EBA224, #734C7D);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -15,6 +15,25 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+  #web-ring {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 15px;
+    background-color: rgb(52, 86, 228);
+    border: solid 2px white;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  #web-ring a:link {
+    color: white;
+    text-decoration: none;
+  }
+
+  #web-ring a:hover {
+    text-decoration: underline;
+  }
 
 figcaption
 {font-family: 'Work Sans', sans-serif;	
